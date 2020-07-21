@@ -1,8 +1,8 @@
 # MyMovieList-Serverless
 
-The Project idea is inspired by myanimelist.net. these are the apis required to track the movies you watched or planing to watch by adding these movies to your movieslist , categorizing them to custom categories (watched ,on hold etc) and rating them.
+The Project idea is inspired by myanimelist.net. these are the apis required to track the movies you watched or planing to watch by adding these movies to your movies list , categorizing them to custom categories (watched ,on hold etc) and rating them.
 
-# Functionality of the application
+# Functionality Implemented
 
 This application will allow CRUD operations for Custom Categories and Movies. Each Movie can optionally have an attachment image. Each user only has access to Movies that he/she has created.
 
@@ -239,12 +239,3 @@ Click on the "Choose Files":
 Select a file to import:
 
 ![Alt text](images/import-collection-3.png?raw=true "Image 3")
-
-
-Right click on the imported collection to set variables for the collection:
-
-![Alt text](images/import-collection-4.png?raw=true "Image 4")
-
-Provide variables for the collection (similarly to how this was done in the course):
-
-![Alt text](images/import-collection-5.png?raw=true "Image 5")
