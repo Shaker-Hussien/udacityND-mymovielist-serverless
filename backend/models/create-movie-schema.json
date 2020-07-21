@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "movie",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "categoryName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rating": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10,
+      "exclusiveMaximum": true
+      
+    }
+  },
+  "required": ["name", "date", "description","categoryName"],
+  "additionalProperties": false
+}
